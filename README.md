@@ -2,10 +2,10 @@
 
 ## Installations
 
-  -nvim
-  -vscode
-  -stow
-  -ghostty
+  - nvim
+  - vscode
+  - stow
+  - ghostty
 
 
 
