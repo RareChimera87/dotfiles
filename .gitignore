@@ -1,0 +1,29 @@
+# --- SEGURIDAD ---
+# Nunca subas llaves privadas ni tokens
+**/.env
+**/credentials
+**/*.pem
+**/*.key
+**/.ssh/
+
+# --- BASURA Y CACHE ---
+# Archivos temporales que no sirven en otra PC
+**/.cache/
+**/node_modules/
+**/.npm/
+**/__pycache__/
+*.log
+*.tmp
+
+# --- ESPECÍFICOS DE APLICACIONES ---
+# Historial de comandos (puede contener contraseñas que escribiste)
+#**/.bash_history
+#**/.zsh_history
+#**/.python_history
+
+# Archivos de estado de PipeWire o Bluetooth
+#**/state
+#**/pavucontrol.ini
+
+# Miniaturas de imágenes
+#**/.thumbnails/

@@ -1,0 +1,9 @@
+2026/02/20-04:33:51.433 164f5 Reusing MANIFEST /home/sreina07/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/20-04:33:51.434 164f5 Recovering log #7
+2026/02/20-04:33:51.434 164f5 Reusing old log /home/sreina07/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2026/02/20-04:33:53.455 164f7 Compacting 1@1 + 1@2 files
+2026/02/20-04:33:53.468 164f7 Generated table #10@1: 411 keys, 67642 bytes
+2026/02/20-04:33:53.468 164f7 Compacted 1@1 + 1@2 files => 67642 bytes
+2026/02/20-04:33:53.469 164f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/20-04:33:53.469 164f7 Delete type=2 #5
+2026/02/20-04:33:53.469 164f7 Delete type=2 #8

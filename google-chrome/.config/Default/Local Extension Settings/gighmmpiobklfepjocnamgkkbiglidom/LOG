@@ -1,0 +1,12 @@
+2026/02/20-04:33:34.145 164f5 Reusing MANIFEST /home/sreina07/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2026/02/20-04:33:34.145 164f5 Recovering log #41
+2026/02/20-04:33:34.155 164f5 Level-0 table #45: started
+2026/02/20-04:33:34.165 164f5 Level-0 table #45: 912238 bytes OK
+2026/02/20-04:33:34.168 164f5 Delete type=0 #41
+2026/02/20-04:33:37.227 164f5 Moved #45 to level-1 912238 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-04:34:00.768 164f7 Compacting 1@1 + 1@2 files
+2026/02/20-04:34:00.778 164f7 Generated table #47@1: 40 keys, 158819 bytes
+2026/02/20-04:34:00.778 164f7 Compacted 1@1 + 1@2 files => 158819 bytes
+2026/02/20-04:34:00.779 164f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/20-04:34:00.780 164f7 Delete type=2 #43
+2026/02/20-04:34:00.780 164f7 Delete type=2 #45
