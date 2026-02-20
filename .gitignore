@@ -27,3 +27,61 @@
 
 # Miniaturas de imágenes
 #**/.thumbnails/
+
+
+**/zen/.config/zen/*/storage/
+**/zen/.config/zen/*/cache/
+**/*.sqlite*
+**/*.jsonlz4
+
+# --- SEGURIDAD Y PRIVACIDAD ---
+# Nunca subir llaves, tokens o historiales de comandos
+**/.ssh/
+**/.gnupg/
+**/.env
+**/credentials
+**/*.pem
+**/*.key
+**/.bash_history
+**/.zsh_history
+**/.python_history
+**/fish_history
+
+# --- CACHÉ Y DATOS TEMPORALES (EL "MUNDO" DE ARCHIVOS BASURA) ---
+# Ignora carpetas de caché en cualquier nivel
+**/[Cc]ache/
+**/[Cc]aché/
+**/.cache/
+**/__pycache__/
+**/*.log
+**/*.tmp
+**/.thumbnails/
+
+# --- NAVEGADORES (Zen, Chrome, Firefox) ---
+# Los navegadores llenan .config de bases de datos y basura técnica
+**/Default/
+**/Profiles/
+**/*.sqlite*
+**/*.jsonlz4
+**/Session\ Storage/
+**/Local\ Storage/
+**/IndexedDB/
+**/GPUCache/
+**/Code\ Cache/
+**/Crashpad/
+
+# --- ESPECÍFICOS DE DESARROLLO / HOME LAB ---
+# Si haces proyectos en carpetas dentro de dotfiles
+**/node_modules/
+**/venv/
+**/.virtualenv/
+**/target/
+**/.terraform/
+
+# --- SISTEMA Y MULTIMEDIA ---
+# Archivos generados por el sistema o reproductores
+**/.DS_Store
+**/Thumbs.db
+**/pavucontrol.ini
+**/state
+**/pnpm-store/

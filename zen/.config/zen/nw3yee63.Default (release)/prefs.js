@@ -66,7 +66,7 @@ user_pref("distribution.iniFile.exists.value", false);
 user_pref("doh-rollout.doneFirstRun", true);
 user_pref("doh-rollout.home-region", "CO");
 user_pref("dom.forms.autocomplete.formautofill", true);
-user_pref("dom.push.userAgentID", "f4e80472effb4d64b27d667c2af7472d");
+user_pref("dom.push.userAgentID", "6ee9141b8956482aba89bf05ae81f9b9");
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.colorway-builtin-themes-cleanup", 1);
