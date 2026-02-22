@@ -1,3 +1,3 @@
 #!/bin/sh
 
-paru -S --noconfirm --needed nvim
+sudo pacman -S nvim
