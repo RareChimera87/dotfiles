@@ -17,6 +17,8 @@ if ! command -v stow &>/dev/null; then
   . .install-stow.sh
 fi
 
+. ./install-zsh.sh
+. ./install-uwsm.sh
 . ./install-ghostty.sh
 . ./install-lazyvim.sh
 . ./install-waybar.sh
@@ -25,6 +27,7 @@ fi
 . ./install-swaync.sh
 . ./install-hyprlock.sh
 . ./install-localsend.sh
+. ./install-ohmyposh.sh
 
 cd "$HOME/dotfiles"
 stow ghostty
@@ -33,5 +36,8 @@ stow waybar
 stow btop
 stow hypr
 stow autostart
-
+stow systemd
+stow uwsm
+stow rofi
+stow zsh
 echo "Programa instaldo y configurado"
