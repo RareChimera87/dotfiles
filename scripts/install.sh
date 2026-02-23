@@ -24,6 +24,7 @@ fi
 . ./install-libnotify.sh
 . ./install-swaync.sh
 . ./install-hyprlock.sh
+. ./install-localsend.sh
 
 cd "$HOME/dotfiles"
 stow ghostty
@@ -31,5 +32,6 @@ stow nvim
 stow waybar
 stow btop
 stow hypr
+stow autostart
 
 echo "Programa instaldo y configurado"

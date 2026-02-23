@@ -5,7 +5,7 @@ DOTFILES="$HOME/dotfiles"
 
 # LISTA BLANCA: Solo añade aquí las carpetas que quieres en GitHub
 # Por ejemplo: hypr, mako, ghostty, uwsm, scripts, btop
-PROGRAMAS=("hypr" "ghostty" "uwsm" "scripts" "btop" "systemd" "nvim" "waybar")
+PROGRAMAS=("hypr" "ghostty" "uwsm" "scripts" "btop" "systemd" "nvim" "waybar" "autostart")
 
 mkdir -p "$DOTFILES"
 cd "$DOTFILES" || exit
