@@ -28,6 +28,8 @@ fi
 . ./install-hyprlock.sh
 . ./install-localsend.sh
 . ./install-ohmyposh.sh
+. ./install-rofi.sh
+. ./install-exa.sh
 
 cd "$HOME/dotfiles"
 stow ghostty
