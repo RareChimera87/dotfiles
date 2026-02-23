@@ -6,7 +6,7 @@ THINKPAD="eDP-1"
 sleep 5
 
 apps() {
-  if hyprctl monitors | grep -q "DP-1"; then
+  if hyprctl monitors | grep -q "Monitor DP-1"; then
 
     hyprctl dispatch focusmonitor eDP-1
     ghostty -e zsh -c "btop; exec zsh" &
@@ -18,6 +18,7 @@ apps() {
   else
     hyprctl dispatch focusmonitor eDP-1
     ghostty -e szh -c "fastfetch; exec zsh" &
+    notify-send Monitor "Thinkpad conectada" &
   fi
 }
 

@@ -20,10 +20,16 @@ fi
 . ./install-ghostty.sh
 . ./install-lazyvim.sh
 . ./install-waybar.sh
+. ./install-btop.sh
+. ./install-libnotify.sh
+. ./install-swaync.sh
+. ./install-hyprlock.sh
 
 cd "$HOME/dotfiles"
 stow ghostty
 stow nvim
 stow waybar
+stow btop
+stow hypr
 
 echo "Programa instaldo y configurado"
