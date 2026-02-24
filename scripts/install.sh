@@ -14,7 +14,7 @@ fi
 
 if ! command -v stow &>/dev/null; then
   echo "Instalando Stow"
-  . .install-stow.sh
+  . ./install-stow.sh
 fi
 
 . ./install-zsh.sh
