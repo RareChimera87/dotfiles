@@ -27,7 +27,6 @@ fi
 . ./install-swaync.sh
 . ./install-hyprlock.sh
 . ./install-localsend.sh
-. ./install-ohmyposh.sh
 . ./install-rofi.sh
 . ./install-exa.sh
 
